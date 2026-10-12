@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Developer - Health Care Center</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark box-shadow">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="/">
+        <img class="logo-img" src="{{ url_for('static', filename='img.png') }}" alt="Health Center Logo">
+        <span>Health Center</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/developer">Developer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <div class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Meet the Developer</h1>
+      <p class="page-hero-subtitle">Passionate about AI, ML, and transforming healthcare through technology</p>
+    </div>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container page-content">
+
+    <!-- Profile Card -->
+    <div class="profile-card">
+      <img src="{{ url_for('static', filename='neeraj-profile-anime.png') }}" alt="Neeraj Singh Yadav" class="profile-avatar">
+      <h2>Neeraj Singh Yadav</h2>
+      <span class="badge">AI & Machine Learning Engineer</span>
+      <div class="skill-badges">
+        <span class="skill-badge">Python</span>
+        <span class="skill-badge">Machine Learning</span>
+        <span class="skill-badge">Deep Learning</span>
+        <span class="skill-badge">Flask</span>
+        <span class="skill-badge">Data Science</span>
+        <span class="skill-badge">Healthcare AI</span>
+      </div>
+    </div>
+
+    <!-- Introduction -->
+    <div class="info-card">
+      <div class="info-card-icon">👋</div>
+      <h3>Hello, I'm Neeraj Singh Yadav</h3>
+      <p>Your AI and Machine Learning Engineer with over 5 years of experience in the field. I am passionate about
+        harnessing the power of technology to make a positive impact on people's lives. Allow me to share a bit about my
+        journey in the world of artificial intelligence and machine learning.</p>
+    </div>
+
+    <!-- Expertise Grid -->
+    <div class="expertise-grid">
+      <!-- Expertise Card 1 -->
+      <div class="info-card">
+        <div class="info-card-icon">🎓</div>
+        <h3>My Expertise</h3>
+        <p>With a strong academic background in computer science and a deep fascination for AI and ML, I embarked on a
+          journey that has taken me across the globe, working on diverse and innovative projects. Over the years, I've
+          had the privilege of collaborating on international projects that have pushed the boundaries of what's
+          possible in AI and ML.</p>
+      </div>
+
+      <!-- Excellence Card -->
+      <div class="info-card">
+        <div class="info-card-icon">⭐</div>
+        <h3>Commitment to Excellence</h3>
+        <p>My work is driven by a commitment to excellence and a belief that technology should be accessible and
+          beneficial to everyone. Whether it's developing predictive models, creating intelligent algorithms, or
+          designing user-friendly interfaces, I strive for solutions that are both cutting-edge and user-centric.</p>
+      </div>
+
+      <!-- Health Tech Passion -->
+      <div class="info-card">
+        <div class="info-card-icon">💡</div>
+        <h3>Passion for Health Tech</h3>
+        <p>The development of Medicine Recommendation System represents a convergence of my passion for AI and my
+          dedication to improving healthcare accessibility. I believe that AI has the potential to transform the way we
+          approach healthcare, making it more personalized and informative. This platform is a testament to that vision.
+        </p>
+      </div>
+    </div>
+
+    <!-- Experience Timeline -->
+    <div class="info-card">
+      <div class="info-card-icon">📊</div>
+      <h3>Experience Highlights</h3>
+      <p>
+        <strong>🔹 5+ Years</strong> of professional experience in AI/ML<br>
+        <strong>🔹 International Projects</strong> spanning multiple domains<br>
+        <strong>🔹 Healthcare AI</strong> specialist with focus on accessibility<br>
+        <strong>🔹 Full-Stack Development</strong> expertise in Python, Flask, and modern web technologies
+      </p>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="cta-section">
+      <h4>Join Me on this Journey</h4>
+      <p>I invite you to explore and experience firsthand the fusion of AI and healthcare. Together, we can empower
+        individuals with knowledge, promote well-being, and contribute to a brighter and healthier future.</p>
+      <a href="/" class="btn-cta">Try the Platform</a>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

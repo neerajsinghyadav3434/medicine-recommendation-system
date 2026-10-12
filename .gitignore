@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments and local package caches
+.venv/
+venv/
+env/
+.uv-cache/
+.uv-python/
+
+# Flask/local environment
+.env
+.flaskenv
+instance/
+
+# IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+tmp/
+temp/

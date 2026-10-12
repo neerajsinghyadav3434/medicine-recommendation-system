@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Health Care Center</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark box-shadow">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="/">
+        <img class="logo-img" src="{{ url_for('static', filename='img.png') }}" alt="Health Center Logo">
+        <span>Health Center</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/developer">Developer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/blog">Blog</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <div class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Contact Us</h1>
+      <p class="page-hero-subtitle">Have questions or need assistance? We're here to help!</p>
+    </div>
+  </div>
+
+  <!-- Content Section -->
+  <div class="container page-content">
+
+    <!-- Introduction -->
+    <div class="info-card text-center">
+      <div class="info-card-icon">💬</div>
+      <h3>Get In Touch</h3>
+      <p>Our dedicated customer support team is available to assist you with any inquiries or issues you may have.
+        Whether it's a technical question, feedback, or a general inquiry, we're just a message away.</p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md-6">
+        <!-- Email Contact -->
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div class="contact-details">
+            <h5>Email Us</h5>
+            <p>neerajsinghyadav9271@gmail.com</p>
+          </div>
+        </div>
+
+        <!-- Phone Contact -->
+        <div class="contact-item">
+          <div class="contact-icon">📞</div>
+          <div class="contact-details">
+            <h5>Call Us</h5>
+            <p>+91 9118287698</p>
+          </div>
+        </div>
+
+        <!-- Location -->
+        <div class="contact-item">
+          <div class="contact-icon">📍</div>
+          <div class="contact-details">
+            <h5>Visit Us</h5>
+            <p>Timscdr Kandiwali, Mumbai</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <!-- Support Hours -->
+        <div class="info-card">
+          <div class="info-card-icon">🕐</div>
+          <h3>Support Hours</h3>
+          <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM<br>
+            <strong>Saturday:</strong> 10:00 AM - 4:00 PM<br>
+            <strong>Sunday:</strong> Closed
+          </p>
+        </div>
+
+        <!-- Quick Response -->
+        <div class="info-card">
+          <div class="info-card-icon">⚡</div>
+          <h3>Quick Response</h3>
+          <p>We value your time and strive to respond to all inquiries within 24 hours. For urgent matters, please call
+            us directly.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social Media Section -->
+    <div class="info-card text-center mt-4">
+      <div class="info-card-icon">🌐</div>
+      <h3>Stay Connected</h3>
+      <p>Follow us on social media for the latest updates, health tips, and news</p>
+
+      <div class="social-links">
+        <a href="#" class="social-link" title="Facebook">
+          <span>f</span>
+        </a>
+        <a href="#" class="social-link" title="Instagram">
+          <span>📷</span>
+        </a>
+        <a href="#" class="social-link" title="Twitter">
+          <span>𝕏</span>
+        </a>
+        <a href="https://www.linkedin.com/in/neeraj-singh-yadav/" class="social-link" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+          <span>in</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Feedback Section -->
+    <div class="cta-section">
+      <h4>Have Feedback?</h4>
+      <p>Your feedback helps us improve our services. We're committed to providing you with the best possible
+        experience.</p>
+      <a href="mailto:neerajsinghyadav9271@gmail.com" class="btn-cta">Send Feedback</a>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
